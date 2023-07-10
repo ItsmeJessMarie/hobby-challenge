@@ -5,7 +5,7 @@ function displaySong(text) {
   if (songAnswer.length > 0) {
     askForm.innerHTML = `<center><h4>Search for and listen to that amazing song <a href="https://open.spotify.com/search" target="_blank" style="text-decoration: none; color:rgb(117, 90, 170)">here</a><h4><center>`;
   } else {
-    askForm.innerHTML = `<center><h4>Please enter a <a href="index.html" style="text-decoration: none; color:rgb(117, 90, 170)">song name</a><h4><center>`;
+    askForm.innerHTML = `<center><h4>Please enter a <a href="index.html" style="text-decoration: none; color: rgb(117, 90, 170);">song name</a><h4><center>`;
   }
 }
 
