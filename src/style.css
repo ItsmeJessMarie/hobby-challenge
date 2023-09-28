@@ -136,3 +136,23 @@ h2 {
 #shecodes-profile:hover {
   color: rgb(117, 90, 170);
 }
+
+@media (max-width: 620px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .hobby-project {
+    max-width: 100%;
+  }
+  .definition-container {
+    text-align: center;
+  }
+  .btn,
+  .enter-song,
+  .footer {
+    font-size: 14px;
+  }
+}
